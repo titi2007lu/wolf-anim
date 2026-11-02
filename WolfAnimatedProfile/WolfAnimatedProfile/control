@@ -1,0 +1,9 @@
+Package: com.wolf.animatedprofile
+Name: Wolf Animated Profile
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Anh dong (GIF/MP4) cho avatar va nen trong Facebook (chi hien tren may ban)
+Maintainer: you
+Author: you
+Section: Tweaks
