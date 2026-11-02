@@ -268,7 +268,7 @@ static UIViewController *WLTopVC(void) {
 static void WLPick(NSString *slot) {
     UIImagePickerController *p = [UIImagePickerController new];
     p.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
-    p.mediaTypes = @[(NSString *)kUTTypeImage, (NSString *)kUTTypeMovie];
+    p.mediaTypes = @[@"public.image", @"public.movie"];
     p.videoExportPreset = AVAssetExportPresetPassthrough;
     [WLPicker shared].slot = slot;
     p.delegate = [WLPicker shared];
